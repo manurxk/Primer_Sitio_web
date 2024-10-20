@@ -1,0 +1,1 @@
+alert(" El Colegio Técnico de las Américas abre sus inscripciones para el año lectivo 2020. Desde el Nivel Inicial, La Educacion Escolar Basica y el Nivel Medio con Tres Bachilleratos Técnicos y Cientifico ");

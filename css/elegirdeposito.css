@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#panel-elegirdeposito{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+}
+#panel-elegirdeposito label{
+    color: red;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.logo{
+    width: 300px;
+}
+.btn-group{
+    margin-top: 10px;
+}
+select{
+    cursor: pointer;
+}
+table{
+    background-color: #c3c3c3;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+    border: 5px red solid;
+}
+
+table tbody tr{
+    cursor:pointer;
+}
+
+table caption{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0px -1px 15px rgba(0, 0, 0, 1);
+}

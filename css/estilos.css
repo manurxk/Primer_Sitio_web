@@ -1,0 +1,46 @@
+header{
+  background-image: url(../img/logos/fondo3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 330vh;
+}
+body{
+    background: #046987;
+}
+.main{
+  background: #;
+  color:
+}
+.color1{
+  background: #34495e;
+  color: #fff;
+}
+div{
+  background:  ;
+  color: black;
+}
+div ul li a ul li{
+  background: red;
+
+}
+article{
+  background: silver;
+}
+aside{
+  background: black;
+  color: #fff;
+
+}
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:black;
+  text-align: center;
+}
+#pfooter{
+  color: white;
+  font-size: 20px;
+}

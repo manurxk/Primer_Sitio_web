@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centrado{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 300px;
+    height: 100%;
+    transition: all .5s;
+    overflow-y: auto;
+}
+nav.ocultar{
+    left: -300px;
+}
+nav div img{
+    width: 250px;
+}
+#menu{
+    list-style-type: none;
+    padding-left: 20px;
+}
+#menu ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+#menu li{
+    line-height: 20px;
+    padding-left: 0;
+}
+.handle {                                                                            
+  background: transparent url(../img/spacer-black.png);
+  background-repeat: no-repeat;                                            
+  background-position: center center;                                      
+  display: block;                                                          
+  float: left;                                                             
+  width: 20px;                                                             
+  height: 16px;
+  cursor: pointer;
+}                                                                                    
+.collapsed {                                                                         
+  background: transparent url(../img/plus-black.png);
+  background-repeat: no-repeat;                                            
+  background-position: center bottom;                                      
+  cursor: pointer;                                                         
+}                                                                                    
+.expanded {                                                                          
+  background: transparent url(../img/minus-black.png);
+  background-repeat: no-repeat;                                            
+  background-position: center bottom;                                      
+  cursor: pointer;                                                         
+}      
+.formulario-seleccionado{
+    background-color: red;
+    color: white;
+}
+nav .menu div .glyphicon{
+    margin-right: 10px;
+}
+nav .sistema{
+    padding-left: 10px;
+}
+nav .submenu{
+    padding-left: 30px;
+}
+nav .formulario{
+    padding-left: 50px;   
+}
+main{
+    position: absolute;
+    background-color: rgba(255,255,255,.9);
+    margin-left: 300px;
+    width: calc(100% - 300px);
+    height: 100%;
+    border-left: 1px #c9c9c9 solid;
+    transition: all .5s;
+}
+main.ocultar{
+    margin-left: 0;
+    width: 100%;
+}
+#barra-herramientas{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,.9);
+}
+#barra-herramientas .glyphicon{
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+}
+.float-izquierda{
+    float: left;
+    border-right: 1px #c9c9c9 solid;
+}
+.float-derecha{
+    float: right;
+    border-left: 1px #c9c9c9 solid;
+}
+.breadcrumb{
+    border: none;
+    background-color: transparent;
+    line-height: 14px;
+}
+.breadcrumb a{
+    color: white;
+}
+.breadcrumb>.active{
+    color: white;
+}
+#formularios{
+    margin-top: 30px;
+}
+#panel-buscar{
+    display: none;
+}
+.padding1{
+    padding: 1.1px;
+}
+table tbody tr{
+    cursor: pointer;
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+.row{
+    margin-bottom: 0;
+    padding: 0;
+}
+.oculto{
+    display: none;
+}
+.columna-botonera{
+    width: 150px;
+}
+.columna-nombre{
+    width: 300px;
+}
+.visor-total{
+    width: 100%;
+    height: 100px;
+    background-color: #B71C1C;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 80px;
+    text-align: center;
+}
+#panel-ingreso, #panel-ingreso table tbody tr{
+    background-color: #00796B;
+}
+
+#panel-ingreso table thead tr th{
+    color: white;
+}
+.tabla-cantidad{
+    width: 150px;
+}
+
+#panel-ingreso-cobro, #panel-ingreso-cobro table tbody tr{
+    background-color: #B71C1C;
+}
+#panel-ingreso-cobro table thead tr th{
+    color: white;
+}
+input[type=radio], label{
+    cursor: pointer;
+}
+
+#panel-ingreso-rol, #panel-ingreso-rol table tbody tr{
+    background-color: #B71C1C;
+}
+#panel-ingreso-rol table thead tr th{
+    color: white;
+}
+
+#panel-ingreso-deposito, #panel-ingreso-deposito table tbody tr{
+    background-color: #B71C1C;
+}
+#panel-ingreso-deposito table thead tr th{
+    color: white;
+}
+.eliminado{
+    display: none;
+}
+
+#archivo,#archivo_foto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px black solid;
+    height: 100%;
+    width: calc(100% - 30px);
+    cursor: pointer;
+    opacity: 0;
+    margin-left: 15px;
+    border-radius: 200px;
+}
+
+#foto{
+    width: 100%;
+    border-radius: 200px;
+}

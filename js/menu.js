@@ -1,0 +1,19 @@
+var encabezado = document.getElementById("menu");
+encabezado.style.color="black";
+encabezado.style.background="";
+encabezado.style.paddingTop="12px";
+encabezado.style.paddingBottom="10px";
+encabezado.style.textAlign="after";
+encabezado.style.border="5px solid black ";
+encabezado.style.borderRadius="1px 1px 1px 1px";
+encabezado.style.textShadow=""
+
+var encabezado = document.getElementById("titulo");
+encabezado.style.color="white";
+encabezado.style.background="";
+encabezado.style.paddingTop="12px";
+encabezado.style.paddingBottom="10px";
+encabezado.style.textAlign="after";
+encabezado.style.border="0px solid blue ";
+encabezado.style.borderRadius="1px 1px 1px 1px";
+encabezado.style.textShadow="0 0 20px blue, 0 0 20px skyblue"
